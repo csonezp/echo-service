@@ -12,6 +12,5 @@ spec:
       containers:
         - name: echo-service
           image: echo-service:0.0.1
-          imagePullPolicy: Never #just for minikube,do not use this in production!!!
           ports:
             - containerPort: 8080
